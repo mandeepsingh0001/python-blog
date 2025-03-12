@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: python-container
-        image: python-app:latest
+        image: 911559/python-blog:v0
         ports:
         - containerPort: 5000
